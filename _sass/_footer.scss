@@ -1,18 +1,10 @@
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-// BASE STYLES
+// FOOTER STYLES
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-// ---
-// Apply a natural box layout model to all elements
-// ---
+[role="contentinfo"] { bottom: 0; color: rgba(255,255,255,0.5); font-size: $small_font_size; position: absolute; text-align: center; width: 100%; }
 
-* { 
-  -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-                  box-sizing: border-box; 
-}
-
-body { background-color: $background_color; color: $text_color; position: relative; }
+.copyright { margin: 0; padding: 1em; }

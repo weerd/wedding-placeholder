@@ -7,8 +7,16 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://heatherdiegowedding.com" # the base hostname & protocol for your site
 github_username: weerd
 
+
 # Build settings
 markdown: kramdown
+
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+  sass_dir: _sass
+  style: :compressed
+
 
 exclude:
   - README.md

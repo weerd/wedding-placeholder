@@ -1,0 +1,35 @@
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// FONT STYLES
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+// ---
+// Example using best format for cross-browser @font-face support.
+// Just copy/paste the example code below, replace 'custom-font' with the 
+// name of the font you're using and then get crackin'.
+//
+// @font-face {
+//  font-family: 'Custom-Font';
+//  src: url('../fonts/custom-font.eot');
+//  src: url('../fonts/custom-font.eot?#iefix') format('embedded-opentype'), 
+//       url('../fonts/custom-font.woff') format('woff'), 
+//       url('../fonts/custom-font.ttf') format('truetype');
+//  font-style: normal;
+//  font-weight: normal;
+// }
+// ---
+
+
+
+@font-face {
+ font-family: 'ChannelSlanted2Regular';
+ src: url('/fonts/channel_slanted2-webfont.eot');
+ src: url('/fonts/channel_slanted2-webfont.eot?#iefix') format('embedded-opentype'), 
+      url('/fonts/channel_slanted2-webfont.woff') format('woff'), 
+      url('/fonts/channel_slanted2-webfont.ttf') format('truetype'),
+      url('/fonts/channel_slanted2-webfont.svg#channel_slanted_2regular') format('svg');
+ font-style: normal;
+ font-weight: normal;
+}
